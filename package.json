@@ -1,0 +1,30 @@
+{
+  "name": "realtimeappwithpusher",
+  "version": "1.0.0",
+  "description": "real time polling app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emmanuelnwogbo/realtimeAppwithPusher.git"
+  },
+  "author": "Emmanuel <emmanwogbo20@yahoo.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emmanuelnwogbo/realtimeAppwithPusher/issues"
+  },
+  "homepage": "https://github.com/emmanuelnwogbo/realtimeAppwithPusher#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.3",
+    "pusher": "^1.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  }
+}
